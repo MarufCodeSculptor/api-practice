@@ -11,6 +11,8 @@
   color: white;
   border: 2px solid #4caf50;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  margin: auto;
+  display: block;
 }
 
 .load-button:hover {
@@ -21,4 +23,13 @@
 .load-button:active {
   background-color: #3e8e41; /* Darker Darker Green */
   border-color: #3e8e41;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+main {
+  width: 1300px;
+  margin: auto;
 }
